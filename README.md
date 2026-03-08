@@ -42,7 +42,7 @@ The **🤖 Auto-Pilot Rebalancing Advisor** is designed for "Management by Excep
 </p>
 
 ### Section C: Executing Stress Tests
-To prepare for "Black Swan" events, use the **💥 Stress Test** module in the sidebar:
+To prepare for "Black Swan" events, use the **Stress Test** module in the sidebar:
 1.  Enter a hypothetical **Outflow Amount** (e.g., 250,000 USDT).
 2.  Click **Apply Outflow**. 
 3.  Observe how the system's Health Score reacts and how the Auto-Pilot adjusts its rebalancing recommendation to save the local liquidity pool.
@@ -52,7 +52,7 @@ To prepare for "Black Swan" events, use the **💥 Stress Test** module in the s
 </p>
 
 ### Section D: Auditing & Logs
-Every internal movement is captured in the **📜 Operation Logs**. This table provides a high-fidelity audit trail, including:
+Every internal movement is captured in the **Operation Logs**. This table provides a high-fidelity audit trail, including:
 * **Timestamp** of the event.
 * **Action Type** (Manual, Auto-Pilot, or Stress Test).
 * **Network Fee** paid.
