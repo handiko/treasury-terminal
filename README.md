@@ -1,4 +1,5 @@
 # Treasury Monitoring Terminal: Smart Rebalancing Manual
+Treasury monitoring terminal simulation app to demonstrate the treasury rebalancing process in a crypto exchange. A simplified example.
 
 ## 1. Project Background & Business Case
 In the ecosystem of a crypto exchange, "Inventory Management" is a critical pillar of Business Operations. Capital is generally split between two venues:
