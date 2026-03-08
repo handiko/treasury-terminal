@@ -1,4 +1,4 @@
-# Ajaib Treasury Terminal: Smart Rebalancing Manual
+# Treasury Monitoring Terminal: Smart Rebalancing Manual
 
 ## 1. Project Background & Business Case
 In the ecosystem of a crypto exchange, "Inventory Management" is a critical pillar of Business Operations. Capital is generally split between two venues:
