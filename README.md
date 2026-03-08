@@ -13,7 +13,7 @@ If a major market event triggers a "Bank Run" (mass withdrawals), the Local Wall
 This terminal acts as a decision-support system that monitors these levels in real-time. It uses a **Drift-Band Strategy** to ensure the exchange stays solvent while minimizing transaction friction and network fees.
 
 <p align="center">
-  <img src="main.png" alt="main" width="800"/>
+  <img src="main.png" alt="main" width="900"/>
 </p>
 
 ---
@@ -27,11 +27,19 @@ Upon launching the terminal, observe the top metrics:
     * *Red Zone:* If health drops below 50%, a liquidity crunch is imminent.
 * **Local Ratio Gauge:** Visualizes the current percentage of assets held locally vs. the **40% Target Ratio**.
 
+<p align="center">
+  <img src="kpi.png" alt="kpi" width="900"/>
+</p>
+
 ### Section B: Using the Auto-Pilot Advisor
 The **🤖 Auto-Pilot Rebalancing Advisor** is designed for "Management by Exception." 
 1.  **Drift Detection:** The system allows for a **5% Drift Band**. It will not bother the operator for small fluctuations.
 2.  **Action Trigger:** If the ratio drifts beyond 5% (e.g., local falls to 34% or rises to 46%), a warning appears.
 3.  **Execution:** Clicking the **"Execute Recommended Move"** button restores target parity instantly using the most cost-effective network (e.g., TRC20).
+
+<p align="center">
+  <img src="advisor.png" alt="advisor" width="900"/>
+</p>
 
 ### Section C: Executing Stress Tests
 To prepare for "Black Swan" events, use the **💥 Stress Test** module in the sidebar:
@@ -39,12 +47,20 @@ To prepare for "Black Swan" events, use the **💥 Stress Test** module in the s
 2.  Click **Apply Outflow**. 
 3.  Observe how the system's Health Score reacts and how the Auto-Pilot adjusts its rebalancing recommendation to save the local liquidity pool.
 
+<p align="center">
+  <img src="stress_test.png" alt="stress_test" width="500"/>
+</p>
+
 ### Section D: Auditing & Logs
 Every internal movement is captured in the **📜 Operation Logs**. This table provides a high-fidelity audit trail, including:
 * **Timestamp** of the event.
 * **Action Type** (Manual, Auto-Pilot, or Stress Test).
 * **Network Fee** paid.
 * **Snapshot** of balances in both venues after the move.
+
+<p align="center">
+  <img src="logs.png" alt="logs" width="900"/>
+</p>
 
 ---
 
