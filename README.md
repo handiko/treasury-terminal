@@ -12,6 +12,10 @@ If a major market event triggers a "Bank Run" (mass withdrawals), the Local Wall
 ### The Solution: "Smart Rebalancing"
 This terminal acts as a decision-support system that monitors these levels in real-time. It uses a **Drift-Band Strategy** to ensure the exchange stays solvent while minimizing transaction friction and network fees.
 
+<p align="center">
+  <img src="main.png" alt="main" width="800"/>
+</p>
+
 ---
 
 ## 2. Operational Instruction Manual
