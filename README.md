@@ -86,4 +86,4 @@ $$\text{If } \lvert Target - Local\ \rvert > (Total \times 0.05) \rightarrow \te
 ## 4. How to Run
 1. Clone this repository.
 2. Install requirements: `pip install streamlit pandas plotly`.
-3. Run the application: `streamlit run treasury_app.py`.
+3. From the python folder, run the application: `streamlit run treasury_app.py`.
