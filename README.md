@@ -87,3 +87,7 @@ $$\text{If } \lvert Target - Local\ \rvert > (Total \times 0.05) \rightarrow \te
 1. Clone this repository.
 2. Install requirements: `pip install streamlit pandas plotly`.
 3. From the python folder, run the application: `streamlit run treasury_app.py`.
+
+---
+
+Back to [Algo Page](https://handiko.github.io/algo/)
